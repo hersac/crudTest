@@ -1,0 +1,223 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+.task {
+    margin: 10px;
+}
+
+.contentBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnHidde{
+    display: none;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    background-color: #75afff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    background-color: #0059d6;
+
+}
+
+.btn:active {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    background-color: #75afff;
+}
+
+.btnCrear {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #75afff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnCrear:hover {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0059d6;
+
+}
+
+.btnCrear:active {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #75afff;
+}
+
+.btnCancelar {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff4545;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnCancelar:hover {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff1f1f
+}
+
+.btnCancelar:active {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff4545;
+}
+
+.btnTerminar {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff9b20;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnTerminar:hover {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ffbf70
+}
+
+.btnTerminar:active {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff9b20;
+}
+
+.contentBtns {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.modalHidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 2;
+}
+
+.contentModal {}
+
+.contentForm {
+    display: block;
+    margin: 30px;
+}
+
+.inputTask {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: solid 0.5px #000;
+}
+
+.taskDescription {
+    height: 200px;
+}
+
+.inputDate {
+    display: flex;
+    justify-content: center;
+}
+
+.contentInput {
+    margin: 20px;
+}
+
+.contentTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filterInput{
+    display: flex;
+    justify-content: center;
+}
+
+.filterInput input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
